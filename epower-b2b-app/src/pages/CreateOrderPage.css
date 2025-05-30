@@ -1,0 +1,110 @@
+/* CreateOrderPage.css */
+.create-order-page {
+  padding: 40px;
+  background-color: #f4f4f9;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  min-height: calc(100vh - 80px);
+  display: flex;
+  justify-content: center;
+}
+
+.create-order-form-container {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 700px; /* Max width for the form */
+}
+
+.create-order-page-title {
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #333;
+  transition: border-color 0.2s ease-in-out;
+  box-sizing: border-box; /* Important for width and padding */
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group input[type="tel"]:focus,
+.form-group textarea:focus {
+  border-color: #7200fe; /* Viola accent on focus */
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(114, 0, 254, 0.2);
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical; /* Allow vertical resize */
+}
+
+.submit-order-btn {
+  background-color: #7200fe; /* Viola accent */
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: block; /* Make it a block to control width/margin */
+  width: 100%; /* Full width button */
+  margin-top: 10px;
+}
+
+.submit-order-btn:hover {
+  background-color: #5a00cc; /* Darker viola on hover */
+  transform: translateY(-2px);
+}
+
+.submit-order-btn:active {
+  transform: translateY(0);
+}
+
+.submission-message {
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.submission-message.success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.submission-message.error { /* If you want to add error messages later */
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}

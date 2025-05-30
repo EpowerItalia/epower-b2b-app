@@ -1,0 +1,94 @@
+/* FlashOffersPage.css */
+.flash-offers-page {
+  padding: 40px;
+  background-color: #f4f4f9;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  min-height: calc(100vh - 80px);
+}
+
+.flash-offers-page-title {
+  color: #333;
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.flash-offers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); /* Slightly wider cards for offers */
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Styling for individual offer cards within FlashOffersPage */
+/* We target .product-card when it's inside .flash-offers-grid to add offer-specific styles */
+.flash-offers-grid .product-card {
+  border: 2px solid #7200fe; /* Viola accent border for offers */
+  position: relative; /* Needed for absolute positioning of badge and end date */
+  overflow: visible; /* Allow badge to overflow slightly if desired, or adjust padding */
+}
+
+.flash-offers-grid .product-card::before {
+  content: "OFFERTA!";
+  position: absolute;
+  top: -15px; /* Position badge slightly above the card */
+  left: 20px;
+  background-color: #ffc107; /* Bright yellow/orange for badge */
+  color: #333;
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border-radius: 6px;
+  z-index: 1;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+/* Specific styling for elements within ProductCard when it's an offer */
+.flash-offers-grid .product-card .product-card-content {
+  padding-top: 30px; /* Add padding to make space for the badge */
+}
+
+.flash-offers-grid .product-card-price-wrapper {
+  margin-top: 10px;
+  text-align: right; /* Align prices to the right */
+}
+
+.flash-offers-grid .original-price {
+  text-decoration: line-through;
+  color: #888;
+  font-size: 1rem;
+  margin-right: 8px;
+}
+
+.flash-offers-grid .offer-price {
+  color: #d9534f; /* A distinct red for offer price */
+  font-size: 1.5rem; /* Make offer price more prominent */
+  font-weight: bold;
+}
+
+.flash-offers-grid .product-card-name {
+  color: #7200fe; /* Make offer name stand out */
+}
+
+.flash-offers-grid .offer-end-date {
+  display: block; /* Make it a block to take its own line */
+  text-align: center;
+  background-color: #fff0c1; /* Light yellow background for end date */
+  color: #555;
+  padding: 8px;
+  margin: 15px -20px -20px -20px; /* Extend to card edges, adjust padding of content */
+  border-top: 1px solid #eee;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border-radius: 0 0 10px 10px; /* Round bottom corners matching card */
+}
+
+/* Styles for when there are no offers to display */
+.flash-offers-no-offers {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 50px;
+}

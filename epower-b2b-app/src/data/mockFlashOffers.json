@@ -1,0 +1,35 @@
+[
+  {
+    "id": "fo001",
+    "name": "PROMO: Urban Glide Pro + Pacchetto Sicurezza",
+    "originalPrice": 3050.00,
+    "offerPrice": 2899.00,
+    "description": "Offerta lampo! Urban Glide Pro con casco, luci e lucchetto inclusi. Non perdere questa occasione unica!",
+    "imageUrl": "https://via.placeholder.com/300x200.png?text=Urban+Glide+PROMO",
+    "productId": "eb001",
+    "productType": "ebike",
+    "offerEndDate": "Scade il 31 Dicembre!"
+  },
+  {
+    "id": "fo002",
+    "name": "SCONTO Batteria LongLife 500Wh",
+    "originalPrice": 499.00,
+    "offerPrice": 449.00,
+    "description": "Solo per questa settimana, batteria LongLife 500Wh a un prezzo imbattibile. Potenzia la tua eBike!",
+    "imageUrl": "https://via.placeholder.com/300x200.png?text=Batteria+PROMO",
+    "productId": "sp001",
+    "productType": "ricambio",
+    "offerEndDate": "Scade tra 3 giorni!"
+  },
+  {
+    "id": "fo003",
+    "name": "KIT Manutenzione eBike Completo",
+    "originalPrice": 120.00,
+    "offerPrice": 99.90,
+    "description": "Tutto il necessario per la manutenzione della tua eBike in un unico kit. Olio, attrezzi e pulitore.",
+    "imageUrl": "https://via.placeholder.com/300x200.png?text=Kit+Manutenzione",
+    "productId": "kit001",
+    "productType": "accessorio",
+    "offerEndDate": "Offerta limitata!"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "eb001",
+    "name": "Urban Glide Pro",
+    "description": "L'eBike perfetta per la città, agile e potente. Ideale per il commuting quotidiano.",
+    "price": 2799.99,
+    "imageUrl": "https://via.placeholder.com/300x200.png?text=Urban+Glide+Pro"
+  },
+  {
+    "id": "eb002",
+    "name": "Mountain Peak X",
+    "description": "Affronta ogni sentiero con questa eMTB robusta e performante. Sospensioni avanzate.",
+    "price": 3499.00,
+    "imageUrl": "https://via.placeholder.com/300x200.png?text=Mountain+Peak+X"
+  },
+  {
+    "id": "eb003",
+    "name": "City Commuter Lite",
+    "description": "Leggera, pieghevole e pratica. La soluzione smart per muoversi in città senza fatica.",
+    "price": 1899.50,
+    "imageUrl": ""
+  },
+  {
+    "id": "eb004",
+    "name": "Trail Blazer Max",
+    "description": "Per avventure off-road estreme. Batteria a lunga durata e motore potente.",
+    "price": 4200.00,
+    "imageUrl": "https://via.placeholder.com/300x200.png?text=Trail+Blazer+Max"
+  }
+]

@@ -1,0 +1,31 @@
+/* SparePartsCatalogPage.css */
+.spare-parts-catalog-page {
+  padding: 40px;
+  background-color: #f4f4f9; /* Consistent light grey background */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  min-height: calc(100vh - 80px); /* Adjust if nav height changes */
+}
+
+.spare-parts-catalog-page-title {
+  color: #333;
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.spare-parts-product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
+  gap: 30px; /* Spacing between cards */
+  max-width: 1200px; /* Max width of the product grid */
+  margin: 0 auto; /* Center the grid */
+}
+
+/* Styles for when there are no products to display */
+.spare-parts-catalog-no-products {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 50px;
+}

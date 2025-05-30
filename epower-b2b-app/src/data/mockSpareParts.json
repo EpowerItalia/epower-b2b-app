@@ -1,0 +1,37 @@
+[
+  {
+    "id": "sp001",
+    "name": "Batteria LongLife 500Wh",
+    "description": "Batteria originale ad alta capacità per eBike Urban series. Autonomia estesa.",
+    "price": 499.00,
+    "imageUrl": "https://via.placeholder.com/300x200.png?text=Batteria+500Wh"
+  },
+  {
+    "id": "sp002",
+    "name": "Caricabatterie Rapido 4A",
+    "description": "Caricatore veloce per tutte le batterie ePower. Ricarica completa in meno tempo.",
+    "price": 89.99,
+    "imageUrl": "https://via.placeholder.com/300x200.png?text=Caricabatterie"
+  },
+  {
+    "id": "sp003",
+    "name": "Display LCD Multifunzione",
+    "description": "Display di controllo avanzato con tachimetro, odometro e livelli di assistenza.",
+    "price": 129.50,
+    "imageUrl": ""
+  },
+  {
+    "id": "sp004",
+    "name": "Set Luci LED Alta Visibilità",
+    "description": "Kit completo di luci anteriori e posteriori per la massima sicurezza su strada.",
+    "price": 59.00,
+    "imageUrl": "https://via.placeholder.com/300x200.png?text=Set+Luci+LED"
+  },
+  {
+    "id": "sp005",
+    "name": "Pastiglie Freno Performance",
+    "description": "Set di 4 pastiglie freno ad alte prestazioni per frenata sicura in ogni condizione.",
+    "price": 24.90,
+    "imageUrl": "https://via.placeholder.com/300x200.png?text=Pastiglie+Freno"
+  }
+]
